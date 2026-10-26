@@ -1,0 +1,24 @@
+{
+  "name": "mina-atalla-card",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first digital business card for Mina Atalla. Static site, no backend.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test \"tests/unit/*.test.js\"",
+    "test:e2e": "node scripts/build.mjs && node --test --test-concurrency=1 \"tests/e2e/*.test.js\"",
+    "check": "npm run validate && npm test && npm run test:e2e",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "devDependencies": {
+    "@zxing/library": "^0.23.0",
+    "playwright": "^1.58.2"
+  }
+}

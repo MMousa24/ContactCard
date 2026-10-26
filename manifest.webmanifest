@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Mina Atalla | Senior Solution Engineer",
+  "short_name": "Mina Atalla",
+  "description": "Digital business card for Mina Atalla, Senior Solution Engineer at Microsoft in Cairo, Egypt.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#0f6cbd",
+  "categories": ["business", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
